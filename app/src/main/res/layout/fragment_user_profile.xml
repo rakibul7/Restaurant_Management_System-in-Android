@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahbuburrahman.resturantmanagement.fragments.UserProfileFragment">
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center_horizontal"
+      android:src="@drawable/avatar"
+      android:layout_marginTop="16dp"
+      android:id="@+id/profile_img"/>
+
+  <TextView
+      android:id="@+id/profile_name_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="Md Sahid Hossain"
+      android:textStyle="bold"
+      android:textSize="24sp"
+      android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/profile_mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="email:sahidhossain420@gmail.com"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:id="@+id/profile_phone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="mobile:01622627776"
+        android:layout_marginTop="6dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:background="@drawable/background_default">
+    <TextView
+        android:id="@+id/profile_fav_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:text="Favorite: 56 "
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/profile_rat_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:text="Rated: 96 "
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+  <FrameLayout
+      android:id="@+id/fav_container"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+
+</LinearLayout>

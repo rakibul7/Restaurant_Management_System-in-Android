@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+
+    <TextView
+        android:id="@+id/detail_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review now"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/review_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter comments here "
+        android:ems="10"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/order_send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="submit"
+        android:textAlignment="center"
+        android:background="@drawable/bacground_shape"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_vertical"
+        />
+
+
+
+</LinearLayout>

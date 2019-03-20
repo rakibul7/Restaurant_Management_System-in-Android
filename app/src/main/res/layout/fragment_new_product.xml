@@ -1,0 +1,75 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#454523"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahbuburrahman.resturantmanagement.fragments.NewProductFragment">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/add_image"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:background="@drawable/background_default_shape"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prod_name_et"
+        android:layout_gravity="center_horizontal"
+        android:hint="product name pls"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prod_price_et"
+        android:hint="product price"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal|number"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_spinner"
+            android:entries="@array/categories"
+            android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="or"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/prod_cat_new_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter a new category"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_default_shape"
+        android:text="upload"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/upload_btn"/>
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/pizza_two">
+
+
+    <!--android:background="@drawable/background_default_shape"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resturant_name"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:background="@drawable/background_default_shape"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:padding="5dp"/>
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_description"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:padding="5dp"
+     android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developed by Sahid,Tanim,Toufik"
+        android:textColor="#211236"
+        android:textSize="8dp"/>
+
+</LinearLayout>

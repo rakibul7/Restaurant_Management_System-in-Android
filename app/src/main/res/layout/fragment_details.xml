@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahbuburrahman.resturantmanagement.fragments.DetailsFragment">
+
+
+    <TextView
+        android:id="@+id/rating_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="3.7"
+        android:padding="5dp"
+        android:background="@drawable/background_default_shape"/>
+
+    <TextView
+        android:id="@+id/rated_people_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="97 people rated"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageButton
+        android:id="@+id/favBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heart_big"
+        android:background="@drawable/background_default"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add to favorite"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:numStars="5"
+        android:stepSize="1"
+        android:backgroundTint="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate it"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"/>
+    <TextView
+        android:id="@+id/item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbeque Nation"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="16.0Tk."
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/review_rate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:text="141 Reviews"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call: 01622627776"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_default"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Reviews"
+        android:textSize="18sp"
+        android:id="@+id/revHeading"
+        android:layout_margin="6dp"/>
+
+    <ListView
+        android:id="@+id/review_listView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="fill|end"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="true"/>
+
+</LinearLayout>

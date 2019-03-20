@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Restaurant Management System</string>
+
+
+    <string-array name="pizza">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+
+    <string-array name="pasta">
+        <item>Spahetti Bologness</item>
+        <item>Lasagne</item>
+    </string-array>
+
+    <string-array name="stores">
+        <item>Dhanmondi-27</item>
+        <item>Mirpur-2</item>
+        <item>Mirpur-1</item>
+        <item>Mirpur-11</item>
+        <item>Mirpur-12</item>
+        <item>Mirpur-13</item>
+        <item>Mirpur-14</item>
+        <item>Mirpur-10</item>
+    </string-array>
+
+    <string name="all_products_tab">All Products</string>
+    <string name="new_product_tab">New Product</string>
+    <string name="users_tab">Users</string>
+    <string name="stores_tab">Stores</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting">Setting</string>
+    <string name="gird_prefs_key">gird_prefs_key</string>
+    <string name="search">Search</string>
+    <string name="searchable_hint">search item by name</string>
+    <string name="shop_logo">shop logo</string>
+
+
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="resturant_name">RMS</string>
+    <string name="logout">Logout</string>
+    <string name="header_description">Your choice is our first priority.</string>
+
+
+    <string-array name="categories">
+        <item>Category</item>
+        <item>Pizza</item>
+        <item>Pasta</item>
+        <item>Burger</item>
+        <item>Drinks</item>
+        <item>Bengali</item>
+        <item>Indiana</item>
+        <item>French</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+    </string-array>
+
+    <string-array name="priceLimit">
+        <item>Price Limit</item>
+        <item>0-100</item>
+        <item>100-500</item>
+        <item>500-1000</item>
+        <item>1000-1500</item>
+    </string-array>
+</resources>

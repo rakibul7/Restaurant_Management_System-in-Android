@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahbuburrahman.resturantmanagement.fragments.UpdateProductFragment">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/item_image"
+    android:src="@drawable/pizza_one"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name_et"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_price_et"
+        android:inputType="number|numberDecimal"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:background="@drawable/background_default_shape"/>
+
+
+
+
+</LinearLayout>
